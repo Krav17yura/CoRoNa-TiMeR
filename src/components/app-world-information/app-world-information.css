@@ -1,0 +1,95 @@
+.box{
+    max-width: 80%;
+    min-height: 200px;
+    background-color:  rgba(105, 58, 109, 0.815);
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-title{
+    padding: 5px 0 0 0 ;
+    max-width: 100%;
+    min-height: 40px;
+    background-color: rgba(216, 120, 120, 0.726);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+.list{
+    display: flex;
+}
+
+.box-list{
+    padding: 4px;
+    text-align: center;
+}
+
+.box-list-item{
+    display: inline-block;
+    text-align: start;
+    width: 350px;
+    height: 30px;
+    background-color:rgba(196, 140, 88, 0.87);
+    margin: 10px;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box-timer{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    background-color:rgba(196, 140, 88, 0.87);
+    margin: 10px;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 992px){
+    .box-list-item{
+        width: 250px;
+        height: 25px;
+    }
+}
+
+@media(max-width: 740px){
+    .box-list-item{
+        width: 210px;
+        height: 33px;
+    }
+}
+
+@media(max-width: 670px){
+
+    .list{
+        flex-direction: column;
+    }
+    .box-list-item{
+      width: 350px;
+      height: 30px;
+    }
+}
+
+
+@media(max-width: 515px){
+    .list{
+        flex-direction: column;
+    }
+    .box-list-item{
+      width: 230px;
+      height: 33px;
+      font-size: 14px;
+    }
+}

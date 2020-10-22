@@ -1,0 +1,15 @@
+.item_list {
+    position: relative;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-itemList{
+    justify-content: center;
+    display: flex;
+}
+

@@ -1,0 +1,7 @@
+
+.container{
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: calc(100vh - 110px);
+}

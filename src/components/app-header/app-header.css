@@ -1,0 +1,57 @@
+.header-block{
+    width: 100%;
+    height: 50px;
+    background-color: #253439;
+    opacity: 0.7;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.header-menu{
+    display: flex;
+}
+.header-menu-item{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 4px 20px;
+    color: #70a6be;
+}
+.active-header-item{
+    color: #cceeff;
+}
+
+.header-title{
+    font-size: 30px;
+    margin: 0 0 40px 0;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(185, 185, 243);
+}
+
+.header-menu-item:hover{
+    color: #bde5f3;
+}
+
+@media(max-width: 992px){
+    .header-title{
+        font-size: 25px;
+    }
+
+    .header-menu-item{
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width: 726px){
+    .header-title{
+        font-size: 21px;
+    }
+
+    .header-menu-item{
+        font-size: 17px;
+
+    }
+}
+
+
