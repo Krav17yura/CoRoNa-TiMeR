@@ -1,3 +1,7 @@
+## Preview
+
+https://corona-timer-8df0c.firebaseapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
